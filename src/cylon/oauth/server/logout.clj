@@ -13,7 +13,7 @@
   RouteProvider
   (routes [component]
     [uri-context
-     {"logout"
+     {"/logout"
       (->
        (fn [req]
          ;; Logout
